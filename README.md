@@ -80,7 +80,7 @@ PS C:\Dev\EMBER2024\examples> uv run .\classifier.py rthelper.dll # DLL FORMAT
 ```
 Random VT scan on both files:
 - [EXE](https://www.virustotal.com/gui/file/d034d691ab377a782432499c1a8804eab3c935a40e7876ca1140df7cb92b5e9b)
-- [DLL](https://www.virustotal.com/gui/file/4b93b56c42601c4935676291225139126423c163b386621109c22b415126112f)
+- [DLL](https://www.virustotal.com/gui/file/d034d691ab377a782432499c1a8804eab3c935a40e7876ca1140df7cb92b5e9b)
 
 Random Hybrid Analysis scan on both files:
 - [EXE](https://hybrid-analysis.com/sample/b920581d9e5d98a786d60c00f50f8a8da6680a9c2fcc7406473b1b011654661a)
