@@ -1,0 +1,37 @@
+// Resource file for System Monitor
+// Adds metadata typical of legitimate software
+
+#include <winver.h>
+
+// Version information
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 3,2,1,0
+PRODUCTVERSION 3,2,1,0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Dataflow Technologies Ltd."
+            VALUE "FileDescription", "System Monitor Service"
+            VALUE "FileVersion", "3.2.1.0"
+            VALUE "InternalName", "sysmon"
+            VALUE "LegalCopyright", "Copyright (c) 2024 Dataflow Technologies Ltd."
+            VALUE "OriginalFilename", "sysmon.exe"
+            VALUE "ProductName", "SystemMonitor"
+            VALUE "ProductVersion", "3.2.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 0x04B0
+    END
+END
+
+// Application manifest
+1 24 "manifest_exe.xml"

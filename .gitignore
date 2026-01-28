@@ -1,0 +1,14 @@
+# Compiled binaries
+*.exe
+*.dll
+*.o
+*.obj
+
+# Build artifacts
+dist/*.exe
+dist/*.dll
+dist/*.o
+
+# Python cache
+__pycache__/
+*.pyc
